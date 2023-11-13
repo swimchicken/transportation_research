@@ -26,7 +26,8 @@ output_folder = "output"
 if not os.path.exists(output_folder):
     os.makedirs(output_folder)
 
-url = "http://61.60.38.53:8601/Interface/Cameras/GetJPEGStream?Camera=CCTV006&Width=320&Height=240&Quality=70&FPS=10&AuthUser=web"
+url = "http://61.60.38.53:8601/Interface/Cameras/GetJPEGStream?Camera=CCTV006&Width=320&Height=240&Quality=70&FPS=10" \
+      "&AuthUser=web"
 
 
 # response = requests.get(url, verify=False)
@@ -44,9 +45,9 @@ while True:
     ret, frame = cap.read()
     if ret:
         out.write(frame)
-        cv2.imshow("CCTV Stream", frame)
-    if cv2.waitKey(1) & 0xFF == ord('q'):
-        break
+        # cv2.imshow("CCTV Stream", frame)
+    # if cv2.waitKey(1) & 0xFF == ord('q'):
+    #     break
 
     # 設定計時器(10 sec)
     if time.time() - start_time >= 3600:
