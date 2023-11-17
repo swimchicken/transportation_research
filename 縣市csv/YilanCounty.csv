@@ -1,0 +1,10 @@
+cctv_ID,RoadName,VideoStreamURL
+ILA:CCTV:TV107009001,礁溪路七段+白雲路路口,http://tp.e-land.gov.tw/ATIS/Device/ShowCCTV/00-0F-FC-51-5B-84
+ILA:CCTV:TV107009002,礁溪轉運站前中央分隔島(礁溪路六段),http://tp.e-land.gov.tw/ATIS/Device/ShowCCTV/00-0F-FC-51-5B-88
+ILA:CCTV:TV107009003,礁溪鄉礁溪路與十六結路口,http://tp.e-land.gov.tw/ATIS/Device/ShowCCTV/00-0F-FC-52-C9-A4
+ILA:CCTV:TV107191001,五結路三段+(高速公路橋下)191,http://tp.e-land.gov.tw/ATIS/Device/ShowCCTV/00-0F-FC-51-5B-85
+ILA:CCTV:TV107999001,光榮路269號右前中央分隔島,http://tp.e-land.gov.tw/ATIS/Device/ShowCCTV/00-0F-FC-51-D9-44
+ILA:CCTV:C000001,礁溪鄉玉龍路一段195號對向路側,http://tp.e-land.gov.tw/ATIS/Device/ShowCCTV/00-0F-7C-15-DD-B4
+ILA:CCTV:C000002,台9線中森加油站對面宜蘭市中山路五段501號(台9線77+672),http://tp.e-land.gov.tw/ATIS/Device/ShowCCTV/00-0F-7C-15-E1-A0
+ILA:CCTV:C000003,台9線蘭陽大橋南端中央分隔島(台9線85+921),http://223.200.93.8:8800/mjpeg_stream.cgi?ch=2
+ILA:CCTV:C000004,台9線五結鄉中正路一段106-1號前中央分隔島(台9線88K+391),http://223.200.93.8:8800/mjpeg_stream.cgi?ch=1
